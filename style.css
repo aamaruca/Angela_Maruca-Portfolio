@@ -9,3 +9,22 @@ nav {
 /* a {
   text-decoration: none;
 } */
+.project-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.project-image {
+  height: 25vh;
+  width: 25vw;
+
+}
