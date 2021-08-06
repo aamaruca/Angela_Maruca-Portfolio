@@ -15,16 +15,21 @@ function displayProjects() {
     projectImage.classList.add("project-image")
     let projectDescription = document.createElement('p')
     projectDescription.classList.add("project-description")
+    let projectUrl = document.createElement('a')
+    projectUrl.classList.add("project-url")
 
     projectSection.appendChild(projectContainer);
     projectContainer.appendChild(projectTitle)
     projectContainer.appendChild(projectImage)
     projectContainer.appendChild(projectDescription)
+    projectContainer.appendChild(projectUrl)
     
-    // projectContainer.style.backgroundImage = `url(${projects[i].img_url})`
+
     projectTitle.innerText = projects[i].title
     projectImage.setAttribute("src", projects[i].img_url)
     projectDescription.innerText = projects[i].description
+    projectUrl.setAttribute("href", projects[i].url)
+    projectUrl.innerText = ("Live Site")
     
 
   }

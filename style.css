@@ -175,6 +175,7 @@ a:visited {
 a:hover {
   color: white;
 }
+
 .intro {
   width: 100vw;
   font-family: 'Raleway', sans-serif;
@@ -225,18 +226,29 @@ a:hover {
   background-color: black;
   border-radius: 35px;
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 2.5rem;
 }
 .project-description {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
+  margin:1rem 2rem 2.5rem;
 }
 .project-image {
   height: 25vh;
   width: 25vw;
-  margin: 1rem;
+  margin: .5rem;
 }
+.project-url {
+  color: white;
+  font-family: 'Macondo', cursive;
+  font-size: 2rem;
+  background-color: #04787C;
+  border-radius: 15px;
+  padding: 1rem;
+  
+}
+
 footer {
   /* position: fixed; */
   padding: 1.5rem;
