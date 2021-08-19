@@ -4,35 +4,38 @@ console.log(projectSection);
 
 function displayProjects() {
   for (let i = 0; i < projects.length; i++) {
-  
     let projectContainer = document.createElement("div");
-    projectContainer.classList.add("project-card")
+    projectContainer.classList.add("project-card");
     let project = document.createElement("div");
-    project.classList.add("project")
-    let projectTitle = document.createElement('p')
-    projectTitle.classList.add("project-title")
-    let projectImage = document.createElement('img')
-    projectImage.classList.add("project-image")
-    let projectDescription = document.createElement('p')
-    projectDescription.classList.add("project-description")
-    let projectUrl = document.createElement('a')
-    projectUrl.classList.add("project-url")
+    project.classList.add("project");
+    let projectTitle = document.createElement("p");
+    projectTitle.classList.add("project-title");
+    let projectImage = document.createElement("img");
+    projectImage.classList.add("project-image");
+    let projectDescription = document.createElement("p");
+    projectDescription.classList.add("project-description");
+    let projectUrl = document.createElement("a");
+    projectUrl.classList.add("project-url");
+    let projectGithub = document.createElement("a");
+    projectGithub.classList.add("project-github");
+    
 
     projectSection.appendChild(projectContainer);
-    projectContainer.appendChild(projectTitle)
-    projectContainer.appendChild(projectImage)
-    projectContainer.appendChild(projectDescription)
-    projectContainer.appendChild(projectUrl)
-    
+    projectContainer.appendChild(projectTitle);
+    projectContainer.appendChild(projectImage);
+    projectContainer.appendChild(projectDescription);
+    projectContainer.appendChild(projectUrl);
+    projectContainer.appendChild(projectGithub)
 
-    projectTitle.innerText = projects[i].title
-    projectImage.setAttribute("src", projects[i].img_url)
-    projectDescription.innerText = projects[i].description
-    projectUrl.setAttribute("href", projects[i].url)
-    projectUrl.innerText = ("Live Site")
-    
 
+    projectTitle.innerText = projects[i].title;
+    projectImage.setAttribute("src", projects[i].img_url);
+    projectDescription.innerText = projects[i].description;
+    projectUrl.setAttribute("href", projects[i].url);
+    projectUrl.innerText = "Live Site";
+    projectGithub.setAttribute("href", projects[i].github);
+    projectGithub.innerText = "Github";
   }
 }
-displayProjects()
+displayProjects();
 // console.log(projects[i]);

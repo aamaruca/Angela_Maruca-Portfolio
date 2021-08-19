@@ -7,6 +7,5 @@ This portfolio is a place for me to showcase the various projects I've worked on
 
 
 
-  
 
- 
+
