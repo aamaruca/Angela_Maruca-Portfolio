@@ -195,15 +195,15 @@ a:hover {
   flex-direction: row;
   justify-content: space-evenly;
   /* background-color: rgb(128, 0, 128);  */
-  padding: 3rem;
+  padding: 1.5rem;
   font-size: 2rem;
   margin: 5rem;
 }
 #profile-pic {
-  width: 55vw;
-
+  width: 60vw;
   box-shadow: 10px 10px 5px black ;
   transition:all 2s ease ;
+  margin: 3rem;
 }
 #profile-pic:hover {
   transform: scale(1.2);

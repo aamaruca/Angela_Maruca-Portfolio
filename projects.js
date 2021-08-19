@@ -2,7 +2,7 @@ const projects = [
   {
     title: "The Sssavy Sssipper",
     img_url: "https://i.imgur.com/LFRKNPtl.jpg?1",
-    description: "The Savvy Sipper is be an app where users can find recipes and ingredients for cocktails.",
+    description: "The Savvy Sipper is an app where users can find recipes and ingredients for cocktails.",
     url: "https://aamaruca.github.io/The-Sssavvy-Sssipper/"
     
   },
