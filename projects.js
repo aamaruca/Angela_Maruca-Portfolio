@@ -9,7 +9,7 @@ const projects = [
   {
     title: "GrowMe",
     img_url: "https://i.imgur.com/VBdF6Iel.jpg?1",
-    description: "GrowMe is a note taking app for gardeners. It will allow a user to enter in information about the individual plants they have and  make notes on that particular plant so they can keep track of them as the season progresses.",
+    description: "GrowMe is a full CRUD React App. Utilizing Airtable and Cloudinary as back-end custom API's. It will allow a user to enter in information about the individual plants they have and  make notes on that particular plant so they can keep track of them as the season progresses.",
     url: "https://grow-me.netlify.app/",
     github: "https://github.com/aamaruca/GrowMe"
   },
